@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 25%;
+    justify-content: center;
+    margin-right: 25%;
+    background:linear-gradient(10deg, white, #aaa);
+}
+
+#titulo{
+    color: black;
+    font-size: 40px;
+    margin-left: -15%;
+}
+
+#subtitulo{
+    margin-left: -3%;
+}
+
+.f2{
+    border: 1;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    font-size: 17px;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+div{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+legend{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.f1{
+    border: solid #aaa;
+    background-color: #bbb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+button:hover,input:hover,select:hover{
+    background-color: #aaa;
+}
+
+.div1{
+    margin-left: 320px;
+}
+input[type=submit]{
+    height: 60px;
+    width: 150px;
+    margin-left: 220px;
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+    resize: none;
+}
+.final{
+    display: flex;
+    align-items:flex-end;
+    width: 600px;
+}
+.ab, .ac{
+    width: 180px;
+}

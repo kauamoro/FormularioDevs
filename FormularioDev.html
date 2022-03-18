@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>pagina de teste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularioDev.css">
+</head>
+<body>
+    <fieldset class="f1">
+        <div class="div1">
+            <h1 id="titulo">Cadastro de DEVs</h1>
+            <p id="subtitulo">Complete suas informações</p>
+        </div>
+
+        <form action="" method="get">
+            <fieldset class="f2">
+                <legend> <strong>Dados Pessoais</strong></legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" nome="nome" id="nome" required autocomplete="off">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" nome="sobrenome" id="sobrenome" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" nome="email" id="email" required>
+                </div>   
+            </fieldset>
+
+            <fieldset class="f2">
+                <legend> <strong>Dados Profissionais</strong></legend>
+                <div>
+                    <label>De qual lado da aplicação você desenvolve?</label required><br><br>
+                    <label>
+                        Front-end<input type="radio" name="opc" value="Front-end">
+                    </label><br>
+                    <label>
+                        Back-end<input type="radio" name="opc" value="Back-end">
+                    </label><br>
+                    <label>
+                        Full-stack<input type="radio" name="opc" value="Full-stack">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="senioridade">Senioridade</label>
+                    <select required name="seleção" id="senioridade" size="1">
+                        <option value="" selected disabled >Selecione</option>
+                        <option value="last">estágio</option>
+                        <option value="last">júnior</option>
+                        <option value="last">pleno</option>
+                        <option value="last">sênior</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Selecione as tecnologias que utiliza:</label><br><br>
+                    <label>
+                        <input type="checkbox" name="tec1">  HTML
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec2">  CSS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec3">  JAVA
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec4">  JAVA-SCRIPT
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec5">  .NET
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec6">  PHP
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec7">  C#
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec8">  PYTHON
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tec9">  NODE
+                    </label>
+                </div>
+                <label for="tx">Conte sobre suas experiências:</label><br>
+                <div class="final"><br>
+                    <div class="ab"><textarea name="texto" id="tx"></textarea></div>
+                    <div class="ac"><input type="submit" value="Concluido"></div>
+                </div>
+            </fieldset>
+        </form>
+    </fieldset>
+</body>
